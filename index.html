@@ -37,6 +37,50 @@
             //Arithmetic operator
             // + Addition Operation
             console.log( a + b + c + d1 );
+
+
+            // name variable will have a global scope
+            let name="anil";
+            //1. Function defination
+            function hello(){
+                //I am trying to access the variable inside the function block
+                console.log('Hello '+name+' , How are you ?');
+            }
+
+            //2. Functin calling is many time process
+            hello();
+            hello();
+            hello();
+
+            console.log('Hello '+name);
+
+
+            //1. Function defination
+            function hello2(x){ // x is a formal argument
+                var name2=x;//Local Variable and have local scope
+
+                console.log("Hello ",name2);
+            }
+
+            //2. function calling
+
+            hello2("Payal"); //I have to supply actual arg
+
+            
+            {
+               
+
+                {
+                    {
+                        var x = 10
+                    }
+                    
+                }
+                
+            }
+
+            1==2?console.log('True'):console.log('False');
+
         </script>
     </body>
 </html>

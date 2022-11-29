@@ -41,7 +41,7 @@ Statement
 
 What are variables?
 
-Variable are like containers/Bucket
+Variable are like containers/Bucket which hold some items/data in memory
 
 I can perform any arithmetic Operation with Javscript.
 
@@ -57,4 +57,27 @@ Arithmetic Operators
 * mul
 -
 
+How we can create a file using VIM editor (Vi = Visual Editor)
 
+Vi (Old)
+Vim (New) (Advanced Editor)
+
+There are 2 Modes
+
+1. Command Mode (Esc)
+2. Insert Mode   ( i )
+
+
+<start>Content Area</end>
+innerHTML referes to Content Area
+innerHTML = Content Area
+
+What are keywords ?
+
+Keywords are some english words which are reserverd for a programing langague
+
+
+ Left Operand +  Right Operand
+
+   a + b
+ 
